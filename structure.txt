@@ -1,0 +1,41 @@
+📌 Features
+- Add, view, search, and update menu items
+- Manage food categories and prices
+- Register customers
+- Create orders with multiple items
+- Automatically calculate totals and GST
+- Update order status
+- Record payments
+- View order history
+- Generate daily sales reports
+- Identify popular menu items
+- Store data in JSON files
+
+🛠️ Tech Stack
+- Python
+- JSON
+- Datetime
+- UUID
+- OS
+
+📁 Folder Structure
+restaurant-order-management/
+│
+├── main.py
+├── config.py
+├── storage.py
+├── utils.py
+├── menu_manager.py
+├── customer_manager.py
+├── order_manager.py
+├── payment_manager.py
+├── report_manager.py
+│
+├── data/
+│   ├── menu.json
+│   ├── customers.json
+│   ├── orders.json
+│   └── payments.json
+│
+├── .gitignore
+└── README.md
